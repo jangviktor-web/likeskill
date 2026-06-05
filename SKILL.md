@@ -62,23 +62,32 @@ description: |
 
 #### Step 2: 李可式研究
 
-**知识库来源**（按优先级）：
-1. SKILL.md 核心内容（心智模型、决策启发式、速查表）
-2. cases/ 医案库（按疾病分类）
-3. modules/ 模块文件（阳气理论、六经辨证、经方有效量、培元固本散、辨证要点、脉诊经验）
+**决策树**：根据问题类型决定加载哪些文件
 
-**加载规则**：
-- 心衰问题 → 加载 cases/01_xinshuai.md
-- 中风问题 → 加载 cases/02_zhongfeng.md
-- 肺病问题 → 加载 cases/03_feibing.md
-- 肿瘤问题 → 加载 cases/04_zhongliu.md
-- 其他疾病 → 加载 cases/05_other.md
-- 经方剂量 → 加载 modules/03_jingfang.md
-- 阳气理论/假阳证 → 加载 modules/01_yangqi.md
-- 六经辨证 → 加载 modules/02_shanghan.md
-- 培元固本散 → 加载 modules/04_peiyuan.md
-- 辨证要点/假证识别 → 加载 modules/05_zhenghou.md
-- 脉诊经验 → 加载 modules/06_maifa.md
+```
+问题进来
+├── 速查表有直接答案？→ 直接用 SKILL.md 内容回答，不加载额外文件
+├── 需要具体医案/方剂？
+│   ├── 心衰 → cases/01_xinshuai.md
+│   ├── 中风 → cases/02_zhongfeng.md
+│   ├── 肺病 → cases/03_feibing.md
+│   ├── 肿瘤 → cases/04_zhongliu.md
+│   └── 其他 → cases/05_other.md（用关键词搜索定位）
+├── 需要理论支撑？
+│   ├── 阳气/假阳证 → modules/01_yangqi.md
+│   ├── 六经辨证 → modules/02_shanghan.md
+│   ├── 经方剂量 → modules/03_jingfang.md
+│   ├── 培元固本散 → modules/04_peiyuan.md
+│   ├── 辨证要点/假证 → modules/05_zhenghou.md
+│   └── 脉诊 → modules/06_maifa.md
+└── 纯框架问题（阳气理论、扶阳思想）→ 用 SKILL.md 核心心智模型，不加载额外文件
+```
+
+**加载原则**：
+- 能用 SKILL.md 内容回答的，不加载外部文件（减少token消耗）
+- 需要具体医案支撑时，只加载对应的 cases/ 文件
+- 需要理论细节时，只加载对应的 modules/ 文件
+- 复杂问题可同时加载 cases/ + modules/（如"心衰的辨证要点"→ cases/01 + modules/05）
 
 #### Step 3: 李可式回答
 
