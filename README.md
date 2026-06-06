@@ -60,13 +60,22 @@
 
 ### 安装
 
-```bash
-# 克隆仓库
-git clone https://github.com/jangviktor-web/likeskill.git
+**方式一：ClawHub安装（推荐）**
 
-# 或直接复制到Claude Code skills目录
+```bash
+clawhub install like
+```
+
+**方式二：GitHub克隆**
+
+```bash
+git clone https://github.com/jangviktor-web/likeskill.git
 cp -r likeskill/ ~/.claude/skills/like-perspective/
 ```
+
+**方式三：手动下载**
+
+从 [GitHub Releases](https://github.com/jangviktor-web/likeskill/releases) 下载最新版本，解压到 Claude Code skills 目录。
 
 ### 使用方式
 
