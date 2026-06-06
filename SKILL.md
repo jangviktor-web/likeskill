@@ -179,8 +179,8 @@ description: |
 | 胸闷/胸痛 | cases/01_xinshuai.md搜"胸闷"或"胸痛" | 医案29-31；cases/05_other.md医案187 |
 | 面瘫 | cases/02_zhongfeng.md搜"面瘫" | 医案5 |
 | 脑梗死 | cases/01_xinshuai.md搜"脑梗死" | 医案55 |
-| 胃痛/溃疡 | cases/05_other.md搜"胃痛"或"溃疡" | 太阴之伤渐及少阴，医案112-114、158 |
-| 便秘/腹泻 | cases/05_other.md搜"便秘"或"泻泄" | 太阴/厥阴，医案115-116、123-125、164 |
+| 胃痛/溃疡 | cases/05_other.md搜"胃痛"或"溃疡" | 太阴之伤渐及少阴，医案112-114 |
+| 便秘/腹泻 | cases/05_other.md搜"便秘"或"泻泄" | 太阴/厥阴，医案115-116、123-125 |
 | 面肌痉挛 | cases/05_other.md搜"面肌痉挛" | 车祸后遗症，医案64 |
 | 颈椎病 | cases/05_other.md搜"颈椎" | 医案71、127 |
 | 肩周炎 | cases/05_other.md搜"肩周" | 医案72 |
@@ -261,7 +261,9 @@ description: |
 | 太阳病 | modules/02_shanghan.md搜"太阳病" | 六经辨证各论 |
 | 阳明病 | modules/02_shanghan.md搜"阳明病" | 六经辨证各论 |
 | 少阳病 | modules/02_shanghan.md搜"少阳病" | 六经辨证各论 |
-| 太阴病 | modules/02_shanghan.md搜"太阴病" | 六经辨证各论；cases/05_other.md搜"太阴病"医案115-122、153-155 |
+| 太阴病 | modules/02_shanghan.md搜"太阴病" | 六经辨证各论；cases/05_other.md"脾胃系统六经索引"太阴病医案106-121、126、16 |
+| 少阴病·脾胃 | modules/02_shanghan.md搜"少阴病" | cases/05_other.md"脾胃系统六经索引"少阴病医案1-2、112-114、11 |
+| 厥阴病·脾胃 | modules/02_shanghan.md搜"厥阴病" | cases/05_other.md"脾胃系统六经索引"厥阴病医案3-4、6、124 |
 | 少阴病 | modules/02_shanghan.md搜"少阴病" | 六经辨证各论；cases/05_other.md搜"少阴病"医案123-131、181 |
 | 厥阴病 | modules/02_shanghan.md搜"厥阴病" | 六经辨证各论；cases/05_other.md搜"厥阴"医案49-54 |
 | 圆运动 | modules/02_shanghan.md搜"圆运动" | 彭子益圆运动理论，李可转述 |
