@@ -30,7 +30,10 @@
 # 方式一：ClawHub安装（推荐）
 clawhub install like
 
-# 方式二：GitHub克隆
+# 方式二：OpenClawMP安装
+openclawmp install skill/9cb2f6eb2f6b4a46ab8cb4b91f48ad77
+
+# 方式三：GitHub克隆
 git clone https://github.com/jangviktor-web/likeskill.git
 cp -r likeskill/ ~/.claude/skills/like-perspective/
 ```
