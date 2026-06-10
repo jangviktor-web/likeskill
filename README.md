@@ -26,25 +26,36 @@
 
 ## ⏬ 快速安装
 
+<details open>
+<summary><b>方式一：ClawHub安装（推荐）</b></summary>
 ```bash
-# 方式一：ClawHub安装（推荐）
-clawhub install like
-
-# 方式二：OpenClaw安装
+    clawhub install like
+```
+    </details>
+    <details>
+<summary><b>方式二：OpenClaw安装</b></summary>
+```bash
 openclaw skills install like
-
-# 方式三：OpenClawMP安装
+```
+    </details>
+    <details>
+<summary><b>方式三：OpenClawMP安装</b></summary>
+```bash
 openclawmp install skill/9cb2f6eb2f6b4a46ab8cb4b91f48ad77
-
-# 方式四：GitHub克隆
+```
+    </details>
+    <details>
+<summary><b>方式四：GitHub克隆</b></summary>
 git clone https://github.com/jangviktor-web/likeskill.git
 cp -r likeskill/ ~/.claude/skills/like-perspective/
 ```
-# 方式五：腾讯 IMA 端
+    </details>
+    <details>
+<summary><b>方式五：腾讯 IMA 端</b></summary>
 下载腾讯 IMA APP，扫描下面知识码，无需配置直接使用。
-<img width="816" height="1317" alt="【李可经方大师skill】知识码" src="https://github.com/user-attachments/assets/dc82a622-50dc-4ba3-93df-3702e136c8dd" />
-
-```
+<img width="200" alt="【李可经方大师skill】知识码" src="https://github.com/user-attachments/assets/dc82a622-50dc-4ba3-93df-3702e136c8dd" />
+    </details>
+    <details>
 ---
 
 ## 🎯 项目简介
