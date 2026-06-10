@@ -40,7 +40,11 @@ openclawmp install skill/9cb2f6eb2f6b4a46ab8cb4b91f48ad77
 git clone https://github.com/jangviktor-web/likeskill.git
 cp -r likeskill/ ~/.claude/skills/like-perspective/
 ```
+# 方式五：腾讯 IMA 端
+下载腾讯 IMA APP，扫描下面知识码，无需配置直接使用。
+<img width="816" height="1317" alt="【李可经方大师skill】知识码" src="https://github.com/user-attachments/assets/dc82a622-50dc-4ba3-93df-3702e136c8dd" />
 
+```
 ---
 
 ## 🎯 项目简介
