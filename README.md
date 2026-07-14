@@ -1,6 +1,6 @@
 <div align="center">
     
-<img width="120" src="logo.jpg" alt="倪海厦skill Logo">
+<img width="120" src="logo.jpg" alt="logo (1)" src="https://github.com/user-attachments/assets/a4b93c0d-0fb5-4ef5-ba89-dab5fe08bb66">
 
 [English Version](#english-version) | **中文**
 
