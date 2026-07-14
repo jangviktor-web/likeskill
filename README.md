@@ -1,4 +1,6 @@
 <div align="center">
+    
+<img width="120" src="logo.jpg" alt="倪海厦skill Logo">
 
 [English Version](#english-version) | **中文**
 
