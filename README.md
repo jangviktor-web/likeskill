@@ -1,6 +1,6 @@
 <div align="center">
-    
-<img width="120" src="logo.jpg" alt="logo (1)" src="https://github.com/user-attachments/assets/a4b93c0d-0fb5-4ef5-ba89-dab5fe08bb66">
+
+<img width="120"  alt="logo (1)" src="https://github.com/user-attachments/assets/b5043fe1-62dd-40e4-9615-f4a2acc55dd4" />
 
 [English Version](#english-version) | **中文**
 
