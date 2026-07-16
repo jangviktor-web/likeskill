@@ -480,7 +480,7 @@ cp -r likeskill/ ~/.claude/skills/like-perspective/
 
 **如果这个项目对你有帮助，请给个Star**
 
-[![Star History Chart](https://api.star-history.com/svg?repos=jangviktor-web/likeskill&type=Date)](https://star-history.com/#jangviktor-web/likeskill&Date)
+[![RepoStars](https://repostars.dev/api/embed?repo=jangviktor-web%2Flikeskill&theme=minimal)](https://repostars.dev/?repos=jangviktor-web%2Flikeskill&theme=minimal)
 
 </div>
 
