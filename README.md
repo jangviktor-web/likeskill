@@ -13,7 +13,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/jangviktor-web/likeskill?style=flat-square&logo=github)](https://github.com/jangviktor-web/likeskill/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/jangviktor-web/likeskill?style=flat-square&logo=github)](https://github.com/jangviktor-web/likeskill/network/members)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](https://github.com/jangviktor-web/likeskill/blob/master/LICENSE)
-[![ClawHub](https://img.shields.io/badge/ClawHub-install%20like-green?style=flat-square)](https://clawhub.ai/skills/like)
+[![ClawHub](https://img.shields.io/badge/ClawHub-install%20like-green?style=flat-square)](https://clawhub.ai/jangviktor-web/skills/like)
 [![Version](https://img.shields.io/badge/version-v2.2.0-blue?style=flat-square)]()
 [![Cases](https://img.shields.io/badge/医案-436-green?style=flat-square)]()
 [![Formulas](https://img.shields.io/badge/方剂-120+-orange?style=flat-square)]()
@@ -32,7 +32,7 @@
 <summary><b>方式一：ClawHub安装（推荐）</b></summary>
 
 ```bash
-clawhub install like
+openclaw skills install @jangviktor-web/like
 ```
 </details>
 
@@ -40,20 +40,13 @@ clawhub install like
 <summary><b>方式二：OpenClaw安装</b></summary>
 
 ```bash
-openclaw skills install like
+openclaw skills install @jangviktor-web/like
 ```
 </details>
 
-<details>
-<summary><b>方式三：OpenClawMP安装</b></summary>
-
-```bash
-openclawmp install skill/9cb2f6eb2f6b4a46ab8cb4b91f48ad77
-```
-</details>
 
 <details>
-<summary><b>方式四：GitHub克隆</b></summary>
+<summary><b>方式三：GitHub克隆</b></summary>
 
 ```bash
 git clone https://github.com/jangviktor-web/likeskill.git
@@ -509,6 +502,6 @@ clawhub install like
 ```
 
 **Repository**: https://github.com/jangviktor-web/likeskill
-**ClawHub**: https://clawhub.ai/skills/like
+**ClawHub**: https://clawhub.ai/jangviktor-web/skills/like
 
 **License**: MIT
