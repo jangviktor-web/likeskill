@@ -1,7 +1,5 @@
 <div align="center">
 
-<img width="120"  alt="logo (1)" src="https://github.com/user-attachments/assets/b5043fe1-62dd-40e4-9615-f4a2acc55dd4" />
-
 [English Version](#english-version) | **中文**
 
 # 李可老中医 · 思维操作系统
@@ -13,7 +11,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/jangviktor-web/likeskill?style=flat-square&logo=github)](https://github.com/jangviktor-web/likeskill/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/jangviktor-web/likeskill?style=flat-square&logo=github)](https://github.com/jangviktor-web/likeskill/network/members)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](https://github.com/jangviktor-web/likeskill/blob/master/LICENSE)
-[![ClawHub](https://img.shields.io/badge/ClawHub-install%20like-green?style=flat-square)](https://clawhub.ai/jangviktor-web/skills/like)
+[![ClawHub](https://img.shields.io/badge/ClawHub-install%20like-green?style=flat-square)](https://clawhub.ai/skills/like)
 [![Version](https://img.shields.io/badge/version-v2.2.0-blue?style=flat-square)]()
 [![Cases](https://img.shields.io/badge/医案-436-green?style=flat-square)]()
 [![Formulas](https://img.shields.io/badge/方剂-120+-orange?style=flat-square)]()
@@ -28,37 +26,21 @@
 
 ## ⏬ 快速安装
 
-<details open>
-<summary><b>方式一：ClawHub安装（推荐）</b></summary>
-
 ```bash
-openclaw skills install @jangviktor-web/like
-```
-</details>
+# 方式一：ClawHub安装（推荐）
+clawhub install like
 
-<details>
-<summary><b>方式二：OpenClaw安装</b></summary>
+# 方式二：OpenClaw安装
+openclaw skills install like
 
-```bash
-openclaw skills install @jangviktor-web/like
-```
-</details>
+# 方式三：OpenClawMP安装
+openclawmp install skill/9cb2f6eb2f6b4a46ab8cb4b91f48ad77
 
-
-<details>
-<summary><b>方式三：GitHub克隆</b></summary>
-
-```bash
+# 方式四：GitHub克隆
 git clone https://github.com/jangviktor-web/likeskill.git
 cp -r likeskill/ ~/.claude/skills/like-perspective/
 ```
-</details>
 
-<details>
-<summary><b>方式五：腾讯 IMA 端</b></summary>
-下载腾讯 IMA APP，扫描下面知识码，无需配置直接使用。
-<img width="200" alt="【李可经方大师skill】知识码" src="https://github.com/user-attachments/assets/dc82a622-50dc-4ba3-93df-3702e136c8dd" />
-</details>
 ---
 
 ## 🎯 项目简介
@@ -473,7 +455,7 @@ cp -r likeskill/ ~/.claude/skills/like-perspective/
 
 **如果这个项目对你有帮助，请给个Star**
 
-[![RepoStars](https://repostars.dev/api/embed?repo=jangviktor-web%2Flikeskill&theme=minimal)](https://repostars.dev/?repos=jangviktor-web%2Flikeskill&theme=minimal)
+[![Star History Chart](https://api.star-history.com/svg?repos=jangviktor-web/likeskill&type=Date)](https://star-history.com/#jangviktor-web/likeskill&Date)
 
 </div>
 
@@ -502,6 +484,6 @@ clawhub install like
 ```
 
 **Repository**: https://github.com/jangviktor-web/likeskill
-**ClawHub**: https://clawhub.ai/jangviktor-web/skills/like
+**ClawHub**: https://clawhub.ai/skills/like
 
 **License**: MIT
