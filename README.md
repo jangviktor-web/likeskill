@@ -1,6 +1,8 @@
 <div align="center">
 
-[English Version](#english-version) | **中文**
+<img width="120"  alt="logo (1)" src="https://github.com/user-attachments/assets/b5043fe1-62dd-40e4-9615-f4a2acc55dd4" />
+
+
 
 # 李可老中医 · 思维操作系统
 
@@ -17,6 +19,8 @@
 [![Formulas](https://img.shields.io/badge/方剂-220+-orange?style=flat-square)]()
 [![Lines](https://img.shields.io/badge/总行数-14572-lightgrey?style=flat-square)]()
 [![Sources](https://img.shields.io/badge/蒸馏来源-13个-blue?style=flat-square)]()
+
+[English Version](#english-version) | **中文**
 
 [⏬ 快速安装](#-快速安装) · [🎯 项目简介](#-项目简介) · [✨ 核心特性](#-核心特性) · [🆕 v2.4.0更新](#-v240更新内容) · [📋 蒸馏来源](#-蒸馏来源) · [🔬 验证报告](#-验证报告) · [📋 更新日志](#-更新日志)
 
