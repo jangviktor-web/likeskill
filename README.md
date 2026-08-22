@@ -12,13 +12,13 @@
 [![GitHub Forks](https://img.shields.io/github/forks/jangviktor-web/likeskill?style=flat-square&logo=github)](https://github.com/jangviktor-web/likeskill/network/members)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](https://github.com/jangviktor-web/likeskill/blob/master/LICENSE)
 [![ClawHub](https://img.shields.io/badge/ClawHub-install%20like-green?style=flat-square)](https://clawhub.ai/skills/like)
-[![Version](https://img.shields.io/badge/version-v2.2.0-blue?style=flat-square)]()
-[![Cases](https://img.shields.io/badge/医案-436-green?style=flat-square)]()
-[![Formulas](https://img.shields.io/badge/方剂-120+-orange?style=flat-square)]()
-[![Lines](https://img.shields.io/badge/总行数-1002-lightgrey?style=flat-square)]()
+[![Version](https://img.shields.io/badge/version-v2.4.0-blue?style=flat-square)]()
+[![Cases](https://img.shields.io/badge/医案-470+-green?style=flat-square)]()
+[![Formulas](https://img.shields.io/badge/方剂-220+-orange?style=flat-square)]()
+[![Lines](https://img.shields.io/badge/总行数-14572-lightgrey?style=flat-square)]()
 [![Sources](https://img.shields.io/badge/蒸馏来源-13个-blue?style=flat-square)]()
 
-[⏬ 快速安装](#-快速安装) · [🎯 项目简介](#-项目简介) · [✨ 核心特性](#-核心特性) · [🆕 v2.2.0更新](#-v220更新内容) · [📋 蒸馏来源](#-蒸馏来源) · [🔬 验证报告](#-验证报告) · [📋 更新日志](#-更新日志)
+[⏬ 快速安装](#-快速安装) · [🎯 项目简介](#-项目简介) · [✨ 核心特性](#-核心特性) · [🆕 v2.4.0更新](#-v240更新内容) · [📋 蒸馏来源](#-蒸馏来源) · [🔬 验证报告](#-验证报告) · [📋 更新日志](#-更新日志)
 
 </div>
 
@@ -53,14 +53,47 @@ cp -r likeskill/ ~/.claude/skills/like-perspective/
 
 ## ✨ 核心特性
 
-- **🏥 436个真实医案**：心衰61+中风10+肺病41+肿瘤51+其他273
+- **🏥 470+个真实医案**：心衰61+中风10+肺病41+肿瘤51+其他273+抄方实录19+经验专辑补遗21专题
 - **🔍 15种假证识别**：假阳证10种（面红如妆/口腔溃疡/高热/咽痛等）+假阴证5种
-- **💊 120+首经方剂量**：含李可临床剂量、彭子益圆运动解读、经方原方三版本
+- **💊 220+首方剂**：122首李可方剂总索引（22命名方+78拟名方+22处方集）+103首经方基础有效量速查
 - **🧭 92种症状直通路由**：从症状直接到辨证到方剂的全链路
 - **🧠 5个心智模型**：阳气为本/六经辨证/经方有效量/顾肾气保胃气/破格用药
 - **🔄 六经辨证决策树**：四步辨证流程（表证→寒热虚实→兼证→假证识别）
 - **📋 105+关键词索引**：精确到文件和医案编号
 - **🛡️ 附子安全六要素**：炙甘草比例/黑小豆蜂蜜/煎煮时间/配干姜/逐步加量/瞑眩观察
+- **🗣️ 235组口语原话**：《人体阳气与疾病》采访实录（表达DNA富矿）
+- **📜 130条李可批注**：《伤寒论类方汇参》批注版精华
+
+---
+
+## 🆕 v2.4.0更新内容
+
+### 一、五书内容完整补录（知识库全量覆盖）
+
+此前蒸馏来源表虽列 11 本著作，但实际知识库对以下内容收录不完整——v2.4 已全部补录：
+
+| 书 | 新增模块 | 内容 |
+|----|---------|------|
+| 《急危重症疑难病经验专辑》 | `cases/06-benshu-buyi.md`（21专题） | 偏正头风散/黄芪保肺膏/目疾/耳鼻/妇科血证/痢疾/肝硬变腹水等 |
+| 《跟师李可抄方记》 | `cases/07-chaofangji.md`（19医案） | 世界罕见心脏病（附子至500克）/电话处方救心汤/痰热症等一手实录 |
+| 《人体阳气与疾病》 | `modules/10-renti-yangqi-duihua.md`（1942行） | 10主题采访实录+**235组口语原话**+6附章 |
+| 《经方基础有效量》 | `modules/11-jichu-youxiaoliang.md`（103方速查） | 基础有效量概念+小青龙详解+伤寒57方+金匮46方 |
+| 《类方汇参·李可批注版》 | `modules/12-leifang-huican-pizhu.md`（130条） | 批注特点+两方论/附子半夏法度+12类方批注+书末亲笔笔记 |
+| 《六经辨证学》 | `modules/09-liujing-bianzhengxue.md` | 孙其新整理框架+六经各论辨证要点 |
+| 《医案处方集》 | `modules/08-fangji-suoyin.md`（122方索引） | 李可命名方22+拟名方78+攻承大柴胡详案 |
+
+### 二、表达还原度三件套（V4.4）
+
+- **前置表达速查卡**：SKILL.md 开头 7 条（开场口语自信/禁书面结构/语气三件套/防模板复用/禁编造数字）
+- **输出形态铁律**：Step 3 ⛔违反即整篇重写（同时改造原字段标签模板→口语段落+方剂卡片）
+- **完整范式文件** `references/01-expression-style.md`：语气量化/✅❌对照/问诊往返/自嘲模式/口头禅库/方剂卡片
+
+### 三、修复与卫生
+
+- **生日修正**：1933 → **1930-12-18**（据《医论专辑》年谱确认）
+- **索引全量覆盖**：12 modules + 7 cases + 1 references 全部入索引，**0 死链**
+- **编码卫生**：全库 0 乱码、0 繁体（癥/穭/瞤/喎等中医专业字保留）
+- **文件名标准化**：sources/biji-notes 10 个中文名→英文 kebab-case
 
 ---
 
@@ -276,6 +309,7 @@ cp -r likeskill/ ~/.claude/skills/like-perspective/
 | 圆运动蒸馏 | 2026-06-06 | 《圆运动古中医学》+续集，含彭子益完整理论+李建西医案 | 4个 |
 | 验证修正 | 2026-06-06 | 源文件核对+防杜撰+知识网络连通性+动态功能测试 | 10+个 |
 | **v2.2.0升级** | **2026-06-08** | **六经传变公式+合病并病+辨证决策树+假证识别扩充+方剂体系扩展+安全机制强化+多维度测试** | **6个** |
+| **v2.4.0补录** | **2026-08-23** | **五书内容完整补录（经验专辑21专题/抄方19案/对话235原话/基础有效量103方/批注130条/方剂索引122首）+三件套+生日修正+0死链全覆盖** | **10+个** |
 
 ---
 
@@ -312,6 +346,19 @@ cp -r likeskill/ ~/.claude/skills/like-perspective/
 
 <details>
 <summary>点击展开：完整更新日志</summary>
+
+### v2.4.0（2026-08-23）
+
+**五书内容完整补录**：
+- 新增 7 个模块/案例文件（modules/08-12 + cases/06-07），知识库 8 modules → 12 modules，5 cases → 7 cases
+- 经验专辑补遗 21 专题（偏正头风散/崩漏/肝硬变腹水等）、抄方实录 19 案（附子至500克）、阳气对话 235 组原话、基础有效量 103 方速查、类方批注 130 条、方剂总索引 122 首
+
+**表达还原度三件套（V4.4）**：
+- 前置表达速查卡 + Step 3 输出形态铁律 + references/01-expression-style.md 完整范式
+
+**修复**：
+- 李可生日 1933 → 1930-12-18（年谱确认）
+- 索引 0 死链、全量覆盖；编码 0 乱码 0 繁体；文件名全英文
 
 ### v2.2.0（2026-06-08）
 
@@ -470,10 +517,11 @@ cp -r likeskill/ ~/.claude/skills/like-perspective/
 An AI-powered skill that reproduces the diagnostic thinking of Master Li Ke (1930-2013), a renowned Traditional Chinese Medicine practitioner specializing in critical and emergency conditions.
 
 **Key Features**:
-- 436 real medical cases (61 heart failure + 10 stroke + 41 lung disease + 51 cancer + 273 others)
+- 470+ real medical cases (61 heart failure + 10 stroke + 41 lung disease + 51 cancer + 273 others + 19 follow-along cases + 21 supplementary topics)
 - 15 false syndrome identifications (10 false yang + 5 false yin)
-- 120+ classical prescriptions with verified dosages
+- 220+ formulas (122 Li Ke formula index + 103 classic formula effective-dose quick reference)
 - 92 symptom-to-diagnosis routing paths
+- 235 spoken quotes from interview (expression DNA)
 - Six-meridian differentiation decision tree (4-step process)
 - 6-element fuzi safety formula
 - Complete circular movement theory distillation
