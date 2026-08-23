@@ -1,6 +1,5 @@
 # 李可老中医肿瘤治疗思想与临床经验分享
 
-**来源**: https://d.biji.com/GIzBNgElPDhm5Ekw
 
 ## 一、核心病因病机理论
 

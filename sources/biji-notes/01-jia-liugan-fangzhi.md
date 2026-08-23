@@ -1,6 +1,5 @@
 # 李可老中医关于假流感防治的中医理论与实践方案
 
-**来源**: https://d.biji.com/GIzBdwz1UurTdOqJ
 
 ## 核心防治原则
 

@@ -1,6 +1,5 @@
 # 李可老中医关于中医辨证施治与经典理论的临床经验谈
 
-**来源**: https://d.biji.com/GIzCthBhQ8AEGQBB
 
 ## 一、核心诊疗思想
 

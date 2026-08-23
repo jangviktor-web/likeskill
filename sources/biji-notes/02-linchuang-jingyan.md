@@ -1,6 +1,5 @@
 # 李可老中医临床经验与核心理论分享
 
-**来源**: https://d.biji.com/GIzBzjZfbUGkz5RH
 
 ## 一、疾病本质与本气理论
 
